@@ -11,7 +11,8 @@ A minimal starter template for building React apps with Vite, TanStack Router, T
 - TanStack Router
 - TanStack Query
 - Tailwind CSS v4
-- shadcn/ui (`base-nova`)
+- Nitro
+- shadcn/ui
 - Oxlint
 - Oxfmt
 
@@ -33,10 +34,3 @@ Open `http://localhost:3000`.
 - `pnpm format`
 - `pnpm format:check`
 - `pnpm typecheck`
-
-## Included Defaults
-
-- File-based routing
-- TanStack Query integration
-- Devtools and toast notifications
-- `@/*` import alias
