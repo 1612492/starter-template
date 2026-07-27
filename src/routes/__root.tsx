@@ -19,7 +19,12 @@ export const Route = createRootRouteWithContext<{
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Starter template" },
+      { title: "TanStack Starter" },
+      {
+        name: "description",
+        content:
+          "A polished TanStack starter with Router, Query, shadcn/ui, and Tailwind.",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
